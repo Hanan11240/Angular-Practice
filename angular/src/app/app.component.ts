@@ -20,12 +20,13 @@ export class AppComponent {
 
 
 
-ngOnInit(){
-  this.obs.subscribe(
-    val=> {console.log(val)},
-    error=>{console.log(error)},
-    ()=> {console.log('complete')}
-  )
-}
+// ngOnInit(){
+//   this.obs.subscribe(
+//     val=> {console.log(val)},
+//     error=>{console.log(error)},
+//     ()=> {console.log('complete')}
+//   )
+// }
+
   
 }
