@@ -8,6 +8,7 @@ import { MapOperatorComponent } from './map-operator/map-operator.component';
 import { HttpClientModule } from '@angular/common/http';
 import { KeyValuePipe } from '@angular/common';
 import { FilterComponentComponent } from './filter-component/filter-component.component';
+import { TapComponent } from './tap/tap.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { FilterComponentComponent } from './filter-component/filter-component.co
     CreateObservablesComponent,
     MapOperatorComponent,
     FilterComponentComponent,
+    TapComponent,
     
   ],
   imports: [
