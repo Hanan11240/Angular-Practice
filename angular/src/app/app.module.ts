@@ -13,6 +13,7 @@ import { SwitchMapComponent } from './switch-map/switch-map.component';
 import { MergeMapComponent } from './merge-map/merge-map.component';
 import { ForJoinComponent } from './for-join/for-join.component';
 import { ConcatMapComponent } from './concat-map/concat-map.component';
+import { ExhaustiveMapComponent } from './exhaustive-map/exhaustive-map.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { ConcatMapComponent } from './concat-map/concat-map.component';
     MergeMapComponent,
     ForJoinComponent,
     ConcatMapComponent,
+    ExhaustiveMapComponent,
     
   ],
   imports: [
