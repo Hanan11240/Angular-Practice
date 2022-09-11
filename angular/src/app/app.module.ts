@@ -12,6 +12,7 @@ import { TapComponent } from './tap/tap.component';
 import { SwitchMapComponent } from './switch-map/switch-map.component';
 import { MergeMapComponent } from './merge-map/merge-map.component';
 import { ForJoinComponent } from './for-join/for-join.component';
+import { ConcatMapComponent } from './concat-map/concat-map.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { ForJoinComponent } from './for-join/for-join.component';
     SwitchMapComponent,
     MergeMapComponent,
     ForJoinComponent,
+    ConcatMapComponent,
     
   ],
   imports: [
