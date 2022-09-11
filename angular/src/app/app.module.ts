@@ -9,6 +9,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { KeyValuePipe } from '@angular/common';
 import { FilterComponentComponent } from './filter-component/filter-component.component';
 import { TapComponent } from './tap/tap.component';
+import { SwitchMapComponent } from './switch-map/switch-map.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { TapComponent } from './tap/tap.component';
     MapOperatorComponent,
     FilterComponentComponent,
     TapComponent,
+    SwitchMapComponent,
     
   ],
   imports: [
