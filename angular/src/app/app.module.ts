@@ -7,12 +7,14 @@ import { CreateObservablesComponent } from './create-observables/create-observab
 import { MapOperatorComponent } from './map-operator/map-operator.component';
 import { HttpClientModule } from '@angular/common/http';
 import { KeyValuePipe } from '@angular/common';
+import { FilterComponentComponent } from './filter-component/filter-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CreateObservablesComponent,
     MapOperatorComponent,
+    FilterComponentComponent,
     
   ],
   imports: [
